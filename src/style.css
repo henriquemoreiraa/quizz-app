@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15.5px;
+    color: #293264;
+    line-height: 1.8em
+}
+
+select--level--title {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #293264
+}
+
+
+.select--level {
+    min-width: 80%;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 25vh;;
+    text-align: center;
+    
+}
+
+.select--level > p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button-level-div {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button--level {
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-radius: 99px;
+    color: white;
+    background-color: #4D5B9E;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #6A7DD9
+}
+
+
+.num--quest--select-diff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 50px
+}
+
+.quest--answers--div {
+    margin: auto;
+    
+}
+
+.button--answers--div {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.button--answers {
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid 1px;
+    border-radius: 99px;
+    color: white;
+    background-color: #4D5B9E;
+    cursor: pointer;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.button-select--diff {
+    width: 120px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 99px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: white;
+    background-color: #4D5B9E;
+    cursor: pointer
+}
+
+.button-score--div {
+   margin-top: 50px; 
+   text-align: center
+   
+}
+
+.button--score--screen {
+    width: 110px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 99px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: white;
+    background-color: #4D5B9E;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.select-diff-score {
+    margin: 10px 10px 50px;
+    margin-left: 75vw
+}
+
+.score--text{
+    text-align: center
+}
+
+.only--quest--answer-div {
+    min-width: 80%;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 24vh;
+}
+
+.only--quest--answer-div > h3 {
+    text-align: center;
+}
+
