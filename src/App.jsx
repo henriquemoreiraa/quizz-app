@@ -2,7 +2,7 @@ import React from "react"
 import { useState} from "react"
 import easy from "./data/easy"
 import "./style.css"
-import Difficulty from "./components/Difficulty.tsx"
+import Difficulty from "./components/Difficulty.jsx"
 
 
 export default function App() {
